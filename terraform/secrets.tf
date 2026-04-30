@@ -1,5 +1,5 @@
 resource "aws_secretsmanager_secret" "openai" {
-  name = "voicebot/openai"
+  name = "voicebot/openai-v2"
 }
 
 resource "aws_secretsmanager_secret_version" "openai_value" {
